@@ -3,7 +3,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.206.16:8764/eureka/
+      defaultZone: http://10.0.2.15:8764/eureka/
     registerWithEureka: false
     fetchRegistry: false
   
@@ -13,7 +13,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.206.16:8763/eureka/
+      defaultZone: http://10.0.2.15.16:8763/eureka/
     registerWithEureka: false
     fetchRegistry: false
   
