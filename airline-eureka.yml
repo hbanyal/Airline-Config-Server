@@ -3,19 +3,10 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.0.2.15:8764/eureka/
+      defaultZone: http://10.0.2.15:8761/eureka/
     registerWithEureka: false
     fetchRegistry: false
-  
----
-spring:
-  profiles: server2
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.0.2.15.16:8763/eureka/
-    registerWithEureka: false
-    fetchRegistry: false
+
   
  
       
