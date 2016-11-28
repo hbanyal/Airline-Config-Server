@@ -10,22 +10,5 @@ eureka:
       defaultZone: http://192.168.56.101:8762/eureka/
     registerWithEureka: false
     fetchRegistry: false
-
----
-spring:
-  profiles: server2
-server:
-  port: 8762
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.56.101:8761/eureka/
-    registerWithEureka: false
-    fetchRegistry: false
-
   
- 
-      
 
