@@ -1,0 +1,16 @@
+spring:
+  profiles: development
+server:
+  port: 8001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.56.101:8761/eureka/
+	  
+security:
+  user:
+    name: guest
+    password: guest123
+  
+

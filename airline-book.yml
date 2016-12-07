@@ -1,0 +1,24 @@
+spring:
+  profiles: development
+  datasource:
+      url: jdbc:sqlserver://192.168.206.16:1433;databaseName=Booking
+      username: sa
+      password: impetus@123#
+  jpa:
+      properties:
+          hibernate:
+              dialect: org.hibernate.dialect.SQLServerDialect
+  rabbitmq: 
+      host: 192.168.56.101
+      port: 5672
+      username: guest
+      password: guest
+server:
+  port: 8091
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.56.101:8761/eureka/
+  
+
